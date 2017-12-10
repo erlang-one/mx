@@ -1,0 +1,16 @@
+{application, mx,
+ [
+  {description, "Mnesia Xenomorph"},
+  {vsn, "1"},
+  {maintainers,["https://twitter.com/_m_2k"]},
+  {links,[{"GitHub","https://github.com/m-2k"}]},
+  {licenses,["MIT"]},
+  {registered, []},
+  {applications, [
+      kernel,
+      stdlib
+      % mnesia
+      ]},
+  {mod, { mx_app, []}},
+  {env, []}
+ ]}.
